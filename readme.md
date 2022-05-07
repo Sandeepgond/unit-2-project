@@ -51,11 +51,11 @@ This is one of the products pages of website.
 In this user gets a regular update about products.
 Also, the user can filter the products according to name, category,price.
 
-Beauty PAGE
+BEAUTY PAGE
 This is one of the beauty products for female pages of website.
 In this user gets a regular update about products.
 
-Kids Page
+KIDS PAGE
 This is one of the beauty products for female pages of website.
 In this user gets a regular update about new products.
 
