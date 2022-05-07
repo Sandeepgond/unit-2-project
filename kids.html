@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Fashion & Designer Products</title>
+  
+    <style>
+        #beautyCont{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(auto);
+            gap: 20px;
+            text-align: center;
+        }
+        #beautyCont>div{
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        }
+        img{
+            width: 70%;
+            height: 300px;
+        }
+       
+        button{
+            margin-bottom: 10px;
+        }
+        h1{
+          text-align: center;
+        }
+        p{
+            color: rgb(107, 103, 103);
+        }
+        .itemUp{
+            margin-top: -10px;
+        }
+        #footer{
+   width: 100%;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+#footer>div{
+    width: 32%;
+    text-align: left;
+    font-family: sans-serif;
+}
+#footer p{
+    margin-top: 15px;
+    line-height: 10px;
+    cursor: pointer;
+    color:  rgb(158, 151, 151);
+}
+#last{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+#last>div{
+    width: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.lastImg{
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+}
+.promo{
+    width: 35px;
+    /* margin-top: 30px; */
+   
+}
+#last>div:nth-child(2){
+    cursor: pointer;
+    margin-top: -120px;
+    margin-left: 750px;
+}
+
+        
+    </style>
+</head>
+<body>
+
+    <h1>Baby Products</h1>
+    <div  id="beautyCont"></div>
+
+    <div id="footer">
+        <div> <h3>CUSTOMER CARE</h3>
+            <p>Shopper Protection</p>
+            <p>Loyalty Program</p>
+              <p> Help Center</p>
+              <p> Size Guides</p>
+              <p>Contact Us / Feedback</p>
+              <p> Shipping / Returns</p>
+        </div>
+        <div> <h3>INFORMATION</h3> 
+              <p> About Us</p>
+              <p> Influencer Program</p>
+              <p>  Partner Stores</p>
+              <p>  Sitemap</p>
+       </div>
+        <div>
+            <h3>LEGAL</h3>
+           <p>Terms Of Use</p>
+           <p> Disclosure</p>
+           <p> Privacy Policy</p>
+           <p>Community Guidelines</p>
+       </div>
+        <div> <h3>CONNECT WITH US</h3>
+           <p style="line-height: 20px;">ModeSens App <br> for IOS and <br> Android</p>
+           <p> Add to Browser</p>
+       </div>
+        <div><h3>NEWSLETTER SIGNUP</h3>
+            <p>Sign Up With Email</p>
+       </div>
+    </div>
+    <br> <br> <br> 
+
+    <hr>
+   <div id="last">
+       <div> 
+           <div><img class="lastImg" src="https://cdn.modesens.com/static/img/20180905footer_logo.svg" alt=""></div>
+           <div><p>© 2022, ModeSens Inc</p></div>
+       </div>
+       <div>
+           <img class="promo" src="https://cdn.modesens.com/static/img/20181008footer-pit.svg" alt="">
+           <img class="promo" src="https://cdn.modesens.com/static/img/20181008footer-tt.svg" alt="">
+           <img class="promo"src="https://cdn.modesens.com/static/img/footer-p.svg" alt="">
+           <img class="promo"src="https://cdn.modesens.com/static/img/footer-fb.svg" alt="">
+           <img class="promo"src="https://cdn.modesens.com/static/img/footer-wb.svg" alt="">
+           <img class="promo"src="https://cdn.modesens.com/static/img/footer-wx.svg" alt="">
+       </div>
+   </div>
+   <br><br>
+
+
+</body>
+</html>
+
+<script>
+
+    var beautyObj=[
+        {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/16/90/11/14/16901114_33649738_1000.jpg",
+         name: "GUCCI ",
+         itemName:"Bables Sneaker Tennis 1997",
+         price: "$322 - $440",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://image.s5a.com/is/image/saks/0400015651938_MULTI?wid=972&hei=1296&fmt=jpeg",
+         name: "VERSACE ",
+         itemName:"Bables Graphic Print Short-sleeves",
+         price: "$207 - $310",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://www.alexandalexa.com/images/880720/external-large.jpg",
+         name: "VERSACE ",
+         itemName:"Bables T-shirt Stampa Barocca",
+         price: "$136 - $195",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/38487657_3?w=400&",
+         name: "GUCCI ",
+         itemName:"Pink T-shirt For BabyKid With Red & Blue",
+         price: "$179 - $191",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/availability/45997150?w=400&&",
+         name: "GUCCI ",
+         itemName:"Baby Straw Effect Hat With Ribbon",
+         price: "$303 - $340",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/16/78/39/99/16783999_33729446_1000.jpg",
+         name: "GUCCI ",
+         itemName:"Baby Girl Metallic Graphic Sweater",
+         price: "$303 - $340",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/32627344_13?w=400&",
+         name: "GUCCI ",
+         itemName:"Babies Pattern Intartia Knit Button",
+         price: "$481 - $565",
+         store:"4 Stores"
+        },
+        {
+          image_url:
+        "https://img.mytheresa.com/1000/1000/95/jpeg/catalog/product/e0/P00588304.jpg",
+         name: "VERSACE ",
+         itemName:"Baby And Little Girl Logo Print Jersey",
+         price: "$126 - $265",
+         store:"4 Stores"
+        },
+        {
+          image_url:
+        "https://cdn-images.italist.com/image/upload/t_zoom_v3_q_auto/aeab0d53bb2f4070ebff48072af278b5.jpg",
+         name: "GUCCI ",
+         itemName:"Bables Sneaker Tennis 1997",
+         price: "$322 - $440",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/16/93/20/31/16932031_33734321_1000.jpg",
+         name: "VERSACE ",
+         itemName:"Bables Graphic Print Short-sleeves",
+         price: "$207 - $310",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://www.alexandalexa.com/images/880720/external-large.jpg",
+         name: "VERSACE ",
+         itemName:"Bables T-shirt Stampa Barocca",
+         price: "$136 - $195",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/27223663_13?w=400&",
+         name: "GUCCI ",
+         itemName:"Pink T-shirt For BabyKid With Red & Blue",
+         price: "$179 - $191",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://d330gmu8jafas0.cloudfront.net/product/6509894536/original/6509894536-1.jpg",
+         name: "GUCCI ",
+         itemName:"Baby Straw Effect Hat With Ribbon",
+         price: "$303 - $340",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/32806507_7?w=400&",
+         name: "GUCCI ",
+         itemName:"Baby Girl Metallic Graphic Sweater",
+         price: "$303 - $340",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/16/23/66/70/16236670_30960698_1000.jpg",
+         name: "GUCCI ",
+         itemName:"Babies Pattern Intartia Knit Button",
+         price: "$481 - $565",
+         store:"4 Stores"
+        },
+        {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/06/93/40/17069340_34248362_1000.jpg",
+         name: "VERSACE ",
+         itemName:"Baby And Little Girl Logo Print Jersey",
+         price: "$126 - $265",
+         store:"4 Stores"
+        },
+        {
+          image_url:
+        "https://res.cloudinary.com/ssenseweb/image/upload/b_white%2Cc_lpad%2Cg_center%2Ch_960%2Cw_960/c_scale%2Ch_680/f_auto%2Cdpr_1.0/212404M701009_1.jpg",
+         name: "GUCCI ",
+         itemName:"Bables Sneaker Tennis 1997",
+         price: "$322 - $440",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/77/79/55/17777955_37382205_1000.jpg",
+         name: "VERSACE ",
+         itemName:"Bables Graphic Print Short-sleeves",
+         price: "$207 - $310",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/61/95/46/17619546_36729991_1000.jpg",
+         name: "VERSACE ",
+         itemName:"Bables T-shirt Stampa Barocca",
+         price: "$136 - $195",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/33708266_5?w=400&",
+         name: "GUCCI ",
+         itemName:"Pink T-shirt For BabyKid With Red & Blue",
+         price: "$179 - $191",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/32762501_15?w=400&",
+         name: "GUCCI ",
+         itemName:"Baby Straw Effect Hat With Ribbon",
+         price: "$303 - $340",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://img.mytheresa.com/1000/1000/95/jpeg/catalog/product/8d/P00653689.jpg",
+         name: "GUCCI ",
+         itemName:"Baby Girl Metallic Graphic Sweater",
+         price: "$303 - $340",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/16/78/55/76/16785576_33791087_1000.jpg",
+         name: "GUCCI ",
+         itemName:"Babies Pattern Intartia Knit Button",
+         price: "$481 - $565",
+         store:"4 Stores"
+        },
+        {
+          image_url:
+        "https://img.mytheresa.com/1000/1000/95/jpeg/catalog/product/6a/P00617816.jpg",
+         name: "VERSACE ",
+         itemName:"Baby And Little Girl Logo Print Jersey",
+         price: "$126 - $265",
+         store:"4 Stores"
+        },
+
+
+      
+    ]
+
+    beautyObj.forEach(function(elem){
+      var box=document.createElement("div")
+
+      var td1=document.createElement("img")
+      td1.src=elem.image_url;
+
+      var td2=document.createElement("h3")
+      td2.innerText=elem.name;
+
+      var td3=document.createElement("p")
+      td3.innerText=elem.itemName;
+      td3.setAttribute("class","itemUp")
+
+      var td4=document.createElement("h4")
+      td4.innerText=elem.price;
+
+      var td5=document.createElement("p")
+      td5.innerText=elem.store;
+      
+      
+      var btn=document.createElement("button")
+      btn.innerText="Add To Cart"
+
+      box.append(td1,td2,td3,td4,td5,btn)
+
+      document.querySelector("#beautyCont").append(box)
+    //   console.log(container)
+  })
+</script>

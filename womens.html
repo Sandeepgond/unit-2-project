@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Clothing for Women</title>
+    <style>
+        #container1{
+          width: 90%;
+          margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(auto);
+            gap: 20px;
+            text-align: center;
+        }
+        #container1>div{
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        }
+        img{
+            width: 70%;
+            height: 300px;
+        }
+       
+        button{
+            margin-bottom: 10px;
+        }
+        h1{
+          text-align: center;
+        }
+        .itemUp{
+            margin-top: -10px;
+        }
+        p{
+          color: grey;
+        }
+        #footer{
+   width: 100%;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+#footer>div{
+    width: 32%;
+    text-align: left;
+    font-family: sans-serif;
+}
+#footer p{
+    margin-top: 15px;
+    line-height: 10px;
+    cursor: pointer;
+    color:  rgb(158, 151, 151);
+}
+#last{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+#last>div{
+    width: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.lastImg{
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+}
+.promo{
+    width: 35px;
+    /* margin-top: 30px; */
+   
+}
+#last>div:nth-child(2){
+    cursor: pointer;
+    margin-top: -120px;
+    margin-left: 750px;
+}
+
+    </style>
+</head>
+<body>
+
+  <h1>Women's Fashion & Designer Products</h1>
+ 
+    <div id="container1"></div>
+
+
+    <div id="footer">
+      <div> <h3>CUSTOMER CARE</h3>
+          <p>Shopper Protection</p>
+          <p>Loyalty Program</p>
+            <p> Help Center</p>
+            <p> Size Guides</p>
+            <p>Contact Us / Feedback</p>
+            <p> Shipping / Returns</p>
+      </div>
+      <div> <h3>INFORMATION</h3> 
+            <p> About Us</p>
+            <p> Influencer Program</p>
+            <p>  Partner Stores</p>
+            <p>  Sitemap</p>
+     </div>
+      <div>
+          <h3>LEGAL</h3>
+         <p>Terms Of Use</p>
+         <p> Disclosure</p>
+         <p> Privacy Policy</p>
+         <p>Community Guidelines</p>
+     </div>
+      <div> <h3>CONNECT WITH US</h3>
+         <p style="line-height: 20px;">ModeSens App <br> for IOS and <br> Android</p>
+         <p> Add to Browser</p>
+     </div>
+      <div><h3>NEWSLETTER SIGNUP</h3>
+          <p>Sign Up With Email</p>
+     </div>
+  </div>
+  <br> <br> <br> 
+
+  <hr>
+ <div id="last">
+     <div> 
+         <div><img class="lastImg" src="https://cdn.modesens.com/static/img/20180905footer_logo.svg" alt=""></div>
+         <div><p>© 2022, ModeSens Inc</p></div>
+     </div>
+     <div>
+         <img class="promo" src="https://cdn.modesens.com/static/img/20181008footer-pit.svg" alt="">
+         <img class="promo" src="https://cdn.modesens.com/static/img/20181008footer-tt.svg" alt="">
+         <img class="promo"src="https://cdn.modesens.com/static/img/footer-p.svg" alt="">
+         <img class="promo"src="https://cdn.modesens.com/static/img/footer-fb.svg" alt="">
+         <img class="promo"src="https://cdn.modesens.com/static/img/footer-wb.svg" alt="">
+         <img class="promo"src="https://cdn.modesens.com/static/img/footer-wx.svg" alt="">
+     </div>
+ </div>
+ <br><br>
+</body>
+</html>
+
+<script>
+
+var womensData = [
+      {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/07/49/44/17074944_37145276_1000.jpg",
+         name: "ZIMMERMANN ",
+         itemName:"Postcard Belted Floral-print Mini Dress",
+         price: "$813 - $1387",
+         store:"22 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/product/41449769_2?w=400&",
+         name: "JACQUEMUS ",
+         itemName:"Women's Limao Cutout Mini Dress",
+         price: "$460 - $775",
+         store:"24 Stores"
+      },
+      {
+          image_url:
+        "https://res.cloudinary.com/ssenseweb/image/upload/b_white%2Cc_lpad%2Cg_center%2Ch_960%2Cw_960/c_scale%2Ch_680/f_auto%2Cdpr_1.0/212251F111009_1.jpg",
+         name: "BalMain",
+         itemName:"Black And Gold Three Button Logo Top ",
+         price: "$213 - $508",
+         store:"21 Stores"
+      },
+      {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/07/66/92/17076692_36892801_1000.jpg",
+         name: "ZIMMERMANN ",
+         itemName:"Tropicana Patchwork Floral-print ",
+         price: "$285 - $449",
+         store:"20 Stores"
+      },
+      {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/07/49/39/17074939_36905758_1000.jpg",
+         name: "ZIMMERMANN ",
+         itemName:"Tropicana Belted Patchwork",
+         price: "$449 - $914",
+         store:"20 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/product/39934471_18?w=400&",
+         name: "DOLCE AND GABBANA ",
+         itemName:"Jersey T-shirt with Dolce Gabbana",
+         price: "$309 - $645",
+         store:"19 Stores"
+      },
+      {
+          image_url:
+        "https://img.zolaprod.babsta.net/MyFjYVenpY6qxaxk5o8818o-0eg=/500x500/d5e511ebc766439dae869a7a60a126b9/product.JAC8M8THORA7AAA100.NBG",
+         name: "JACQUEMUS",
+         itemName:"La Robe Bahiya Jersey Draped Mini Top",
+         price: "$425 - $645",
+         store:"21 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/product/40641465_2?w=400&",
+         name: "JACQUEMUS",
+         itemName:"La Robe Bahiya Jersey Button Top",
+         price: "$425 - $905",
+         store:"21 Stores"
+      },
+      {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/23/86/47/17238647_36446346_1000.jpg",
+         name: "ZIMMERMANN ",
+         itemName:"Postcard Belted Floral-print Mini Dress",
+         price: "$813 - $1387",
+         store:"22 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/product/40891575?w=400&",
+         name: "JACQUEMUS ",
+         itemName:"Women's Limao Cutout Mini Dress",
+         price: "$460 - $775",
+         store:"24 Stores"
+      },
+      {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/07/58/65/17075865_37187077_1000.jpg",
+         name: "BalMain",
+         itemName:"Black And Gold Three Button Logo Top ",
+         price: "$213 - $508",
+         store:"21 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/availability/46512007?w=400&",
+         name: "ZIMMERMANN ",
+         itemName:"Tropicana Patchwork Floral-print ",
+         price: "$285 - $449",
+         store:"20 Stores"
+      },
+      {
+          image_url:
+        "https://img.mytheresa.com/1000/1000/95/jpeg/catalog/product/8c/P00636298.jpg",
+         name: "ZIMMERMANN ",
+         itemName:"Tropicana Belted Patchwork",
+         price: "$449 - $914",
+         store:"20 Stores"
+      },
+      {
+          image_url:
+        "https://img.ssensemedia.com/images/221553F109007_1/blue-le-chemise-capri-shirt.jpg",
+         name: "DOLCE AND GABBANA ",
+         itemName:"Jersey T-shirt with Dolce Gabbana",
+         price: "$309 - $645",
+         store:"19 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/product/37172724_24?w=400&",
+         name: "JACQUEMUS",
+         itemName:"La Robe Bahiya Jersey Draped Mini Top",
+         price: "$425 - $645",
+         store:"21 Stores"
+      },
+      {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/62/98/62/17629862_36801913_1000.jpg",
+         name: "JACQUEMUS",
+         itemName:"La Robe Bahiya Jersey Button Top",
+         price: "$425 - $905",
+         store:"21 Stores"
+      },
+      {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/73/23/65/17732365_37159558_1000.jpg",
+         name: "ZIMMERMANN ",
+         itemName:"Postcard Belted Floral-print Mini Dress",
+         price: "$813 - $1387",
+         store:"22 Stores"
+      },
+      {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/64/97/72/17649772_36889378_1000.jpg",
+         name: "JACQUEMUS ",
+         itemName:"Women's Limao Cutout Mini Dress",
+         price: "$460 - $775",
+         store:"24 Stores"
+      },
+      {
+          image_url:
+        "https://img.ssensemedia.com/images/221251F110007_1/pink-cropped-logo-t-shirt.jpg",
+         name: "BalMain",
+         itemName:"Black And Gold Three Button Logo Top ",
+         price: "$213 - $508",
+         store:"21 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/product/34883998_10?w=400&",
+         name: "ZIMMERMANN ",
+         itemName:"Tropicana Patchwork Floral-print ",
+         price: "$285 - $449",
+         store:"20 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/product/36823270_2?w=400&",
+         name: "ZIMMERMANN ",
+         itemName:"Tropicana Belted Patchwork",
+         price: "$449 - $914",
+         store:"20 Stores"
+      },
+      {
+          image_url:
+        "https://cdn-images.farfetch-contents.com/17/65/84/86/17658486_36939844_1000.jpg",
+         name: "DOLCE AND GABBANA ",
+         itemName:"Jersey T-shirt with Dolce Gabbana",
+         price: "$309 - $645",
+         store:"19 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/product/39441072_10?w=400&",
+         name: "JACQUEMUS",
+         itemName:"La Robe Bahiya Jersey Draped Mini Top",
+         price: "$425 - $645",
+         store:"21 Stores"
+      },
+      {
+          image_url:
+        "https://cdn.modesens.com/product/34019317_20?w=400&",
+         name: "JACQUEMUS",
+         itemName:"La Robe Bahiya Jersey Button Top",
+         price: "$425 - $905",
+         store:"21 Stores"
+      },
+    
+  ];
+
+  womensData.forEach(function(elem){
+      var box=document.createElement("div")
+
+      var td1=document.createElement("img")
+      td1.src=elem.image_url;
+
+      var td2=document.createElement("h3")
+      td2.innerText=elem.name;
+
+      var td3=document.createElement("p")
+      td3.innerText=elem.itemName;
+      td3.setAttribute("class","itemUp")
+
+      var td4=document.createElement("h4")
+      td4.innerText=elem.price;
+
+      var td5=document.createElement("p")
+      td5.innerText=elem.store;
+      
+      var btn=document.createElement("button")
+      btn.innerText="Add To Cart"
+
+      box.append(td1,td2,td3,td4,td5,btn)
+
+      document.querySelector("#container1").append(box)
+    //   console.log(container)
+  })
+</script>

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Beauty | Modesens</title>
+  
+    <style>
+        #beautyCont{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(auto);
+            gap: 20px;
+            text-align: center;
+        }
+        #beautyCont>div{
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        }
+        img{
+            width: 70%;
+            height: 300px;
+        }
+       
+        button{
+            margin-bottom: 10px;
+        }
+        h1{
+          text-align: center;
+        }
+        p{
+            color: rgb(107, 103, 103);
+        }
+        .itemUp{
+            margin-top: -10px;
+        }
+        #footer{
+   width: 100%;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+#footer>div{
+    width: 32%;
+    text-align: left;
+    font-family: sans-serif;
+}
+#footer p{
+    margin-top: 15px;
+    line-height: 10px;
+    cursor: pointer;
+    color:  rgb(158, 151, 151);
+}
+#last{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+#last>div{
+    width: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.lastImg{
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+}
+.promo{
+    width: 35px;
+    /* margin-top: 30px; */
+   
+}
+#last>div:nth-child(2){
+    cursor: pointer;
+    margin-top: -120px;
+    margin-left: 750px;
+}
+
+        
+    </style>
+</head>
+<body>
+
+    <h1>Womens Beauty Products</h1>
+    <div  id="beautyCont"></div>
+
+    <div id="footer">
+        <div> <h3>CUSTOMER CARE</h3>
+            <p>Shopper Protection</p>
+            <p>Loyalty Program</p>
+              <p> Help Center</p>
+              <p> Size Guides</p>
+              <p>Contact Us / Feedback</p>
+              <p> Shipping / Returns</p>
+        </div>
+        <div> <h3>INFORMATION</h3> 
+              <p> About Us</p>
+              <p> Influencer Program</p>
+              <p>  Partner Stores</p>
+              <p>  Sitemap</p>
+       </div>
+        <div>
+            <h3>LEGAL</h3>
+           <p>Terms Of Use</p>
+           <p> Disclosure</p>
+           <p> Privacy Policy</p>
+           <p>Community Guidelines</p>
+       </div>
+        <div> <h3>CONNECT WITH US</h3>
+           <p style="line-height: 20px;">ModeSens App <br> for IOS and <br> Android</p>
+           <p> Add to Browser</p>
+       </div>
+        <div><h3>NEWSLETTER SIGNUP</h3>
+            <p>Sign Up With Email</p>
+       </div>
+    </div>
+    <br> <br> <br> 
+
+    <hr>
+   <div id="last">
+       <div> 
+           <div><img class="lastImg" src="https://cdn.modesens.com/static/img/20180905footer_logo.svg" alt=""></div>
+           <div><p>© 2022, ModeSens Inc</p></div>
+       </div>
+       <div>
+           <img class="promo" src="https://cdn.modesens.com/static/img/20181008footer-pit.svg" alt="">
+           <img class="promo" src="https://cdn.modesens.com/static/img/20181008footer-tt.svg" alt="">
+           <img class="promo"src="https://cdn.modesens.com/static/img/footer-p.svg" alt="">
+           <img class="promo"src="https://cdn.modesens.com/static/img/footer-fb.svg" alt="">
+           <img class="promo"src="https://cdn.modesens.com/static/img/footer-wb.svg" alt="">
+           <img class="promo"src="https://cdn.modesens.com/static/img/footer-wx.svg" alt="">
+       </div>
+   </div>
+   <br><br>
+
+
+</body>
+</html>
+
+<script>
+
+    var beautyObj=[
+        {
+          image_url:
+        "https://i1.adis.ws/i/liberty/382855-1001409929-1?$large$",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #29, Tapered Blending Brush",
+         price: "$29 - $37",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://images.neimanmarcus.com/ca/2/product_assets/C/4/M/4/5/NMC4M45_mu.jpg",
+         name: "TRISH MCEVOY ",
+         itemName:"Fast-track Face Stick Highlight",
+         price: "$34 - $42",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6941496_28?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #30, Eye Blending Brush In Blue",
+         price: "$24 - $30",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6712522_57?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Beauty Booster Serum",
+         price: "$90 - $130",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/21869785_13?w=400&",
+         name: "GUCCI ",
+         itemName:"Bloom Profumo Di Fiori De Parfum",
+         price: "$64 - $108",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6941503_25?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #65, Angled Contour Brush",
+         price: "$38 - $50",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6717197_49?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Lip Perfector Conditioning Balm",
+         price: "$32 - $37",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/13278152_36?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Instant Tanning Solution Drop",
+         price: "$40 - $48",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://media.gucci.com/style/White_Center_0_0_2400x2400/1607020209/654872_9PPR2_9001_001_100_0000_Light.jpg",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #29, Tapered Blending Brush",
+         price: "$29 - $37",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/11130835_11?w=400&",
+         name: "GUCCI ",
+         itemName:"The Alchemist's Garden Perfume",
+         price: "$266 - $330",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6712655_51?w=400&",
+         name: "DECORTE ",
+         itemName:"Even Skin Vitamin C Cream",
+         price: "$56 - $77",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/29801423_4?w=400&",
+         name: "DECORTE ",
+         itemName:"WhiteLogist Kojic Acid Brightening",
+         price: "$80 - $100",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6717197_49?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Lip Perfector Conditioning Balm",
+         price: "$32 - $37",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://i1.adis.ws/i/liberty/382855-1001409929-1?$large$",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #29, Tapered Blending Brush",
+         price: "$29 - $37",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/30003448_13?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"dramatic Lash Mascara In Black",
+         price: "$30 - $37",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://media.gucci.com/style/White_Center_0_0_2400x2400/1607020209/654872_9PPR2_9001_001_100_0000_Light.jpg",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #29, Tapered Blending Brush",
+         price: "$29 - $37",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6712522_57?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Beauty Booster Serum",
+         price: "$90 - $130",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6712655_51?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Even Skin Vitamin C Cream",
+         price: "$56 - $77",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6717197_49?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Lip Perfector Conditioning Balm",
+         price: "$32 - $37",
+         store:"5 Stores"
+        },
+
+        {
+          image_url:
+        "https://i1.adis.ws/i/liberty/382855-1001409929-1?$large$",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #29, Tapered Blending Brush",
+         price: "$29 - $37",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6712655_51?w=400&",
+         name: "DECORTE ",
+         itemName:"Even Skin Vitamin C Cream",
+         price: "$56 - $77",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/30003448_13?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Dramatic Lash Mascara In Black",
+         price: "$30 - $37",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://i1.adis.ws/i/liberty/382855-1001409929-1?$large$",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #29, Tapered Blending Brush",
+         price: "$29 - $37",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://images.neimanmarcus.com/ca/2/product_assets/C/4/M/4/5/NMC4M45_mu.jpg",
+         name: "TRISH MCEVOY ",
+         itemName:"Fast-track Face Stick Highlight",
+         price: "$34 - $42",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6941496_28?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #30, Eye Blending Brush In Blue",
+         price: "$24 - $30",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6712522_57?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Beauty Booster Serum",
+         price: "$90 - $130",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6717197_49?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Lip Perfector Conditioning Balm",
+         price: "$32 - $37",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/21869785_13?w=400&",
+         name: "GUCCI ",
+         itemName:"Bloom Profumo Di Fiori De Parfum",
+         price: "$64 - $108",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6941503_25?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #65, Angled Contour Brush",
+         price: "$38 - $50",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/13278152_36?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Instant Tanning Solution Drop",
+         price: "$40 - $48",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://media.gucci.com/style/White_Center_0_0_2400x2400/1607020209/654872_9PPR2_9001_001_100_0000_Light.jpg",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #29, Tapered Blending Brush",
+         price: "$29 - $37",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/11130835_11?w=400&",
+         name: "GUCCI ",
+         itemName:"The Alchemist's Garden Perfume",
+         price: "$266 - $330",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6717197_49?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Lip Perfector Conditioning Balm",
+         price: "$32 - $37",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6712655_51?w=400&",
+         name: "DECORTE ",
+         itemName:"Even Skin Vitamin C Cream",
+         price: "$56 - $77",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/29801423_4?w=400&",
+         name: "DECORTE ",
+         itemName:"WhiteLogist Kojic Acid Brightening",
+         price: "$80 - $100",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/24479845_12?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #29, Tapered Blending Brush",
+         price: "$29 - $37",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/30003448_13?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"dramatic Lash Mascara In Black",
+         price: "$30 - $37",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6717197_49?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Lip Perfector Conditioning Balm",
+         price: "$32 - $37",
+         store:"5 Stores"
+        },
+        {
+          image_url:
+        "https://media.gucci.com/style/White_Center_0_0_2400x2400/1607020209/654872_9PPR2_9001_001_100_0000_Light.jpg",
+         name: "TRISH MCEVOY ",
+         itemName:"Brush #29, Tapered Blending Brush",
+         price: "$29 - $37",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6712522_57?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Beauty Booster Serum",
+         price: "$90 - $130",
+         store:"7 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/6712655_51?w=400&",
+         name: "DECORTE ",
+         itemName:"Even Skin Vitamin C Cream",
+         price: "$56 - $77",
+         store:"6 Stores"
+        },
+        {
+          image_url:
+        "https://cdn.modesens.com/product/30003448_13?w=400&",
+         name: "TRISH MCEVOY ",
+         itemName:"Dramatic Lash Mascara In Black",
+         price: "$30 - $37",
+         store:"5 Stores"
+        },
+    ]
+
+    beautyObj.forEach(function(elem){
+      var box=document.createElement("div")
+
+      var td1=document.createElement("img")
+      td1.src=elem.image_url;
+
+      var td2=document.createElement("h3")
+      td2.innerText=elem.name;
+
+      var td3=document.createElement("p")
+      td3.innerText=elem.itemName;
+      td3.setAttribute("class","itemUp")
+
+      var td4=document.createElement("h4")
+      td4.innerText=elem.price;
+
+      var td5=document.createElement("p")
+      td5.innerText=elem.store;
+      
+      
+      var btn=document.createElement("button")
+      btn.innerText="Add To Cart"
+
+      box.append(td1,td2,td3,td4,td5,btn)
+
+      document.querySelector("#beautyCont").append(box)
+    //   console.log(container)
+  })
+</script>
